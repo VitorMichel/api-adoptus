@@ -29,7 +29,7 @@ module.exports = {
 
     async pegar_dados(request,response)
     {
-        const {id_usuario} = request.body;
+        const {id_usuario} = request.header;
 
         // connection.connect();
 
