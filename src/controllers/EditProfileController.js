@@ -5,7 +5,7 @@ module.exports = {
 
     async index(request, response)
     {
-        const {id_usuario, nome, celular, email} = request.query;
+        const {id_usuario, nome, celular, email} = request.body;
 
         // connection.connect();
 
