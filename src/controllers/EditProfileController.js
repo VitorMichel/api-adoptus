@@ -39,7 +39,7 @@ module.exports = {
             if (error) 
                 return response.json({ status: 404, message: error.message });
                 
-            return response.json({status: 200, message: results});
+            return response.json(results);
         });
 
         // connection.end();
