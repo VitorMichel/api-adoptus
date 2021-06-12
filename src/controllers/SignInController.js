@@ -5,7 +5,7 @@ module.exports = {
 
     async index(request, response)
     {
-        const {login, senha} = request.query;
+        const {login, senha} = request.body;
 
         console.log(`SELECT * FROM USUARIO WHERE LOGIN = '${login}' AND SENHA = '${senha}'`);
 
