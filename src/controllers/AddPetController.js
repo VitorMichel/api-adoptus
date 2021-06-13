@@ -5,7 +5,7 @@ module.exports = {
 
     async index(request, response)
     {
-        const {nome, data_cadastro, link_foto, tipo_animal, raca, sexo, porte, vacinado, castrado, vermifugado, contato, biografia, id_dono} = request.query;
+        const {nome, data_cadastro, link_foto, tipo_animal, raca, sexo, porte, vacinado, castrado, vermifugado, contato, biografia, id_dono} = request.body;
 
         // connection.connect();
 
